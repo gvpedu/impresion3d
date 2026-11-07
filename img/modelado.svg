@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="800" viewBox="0 0 800 800" fill="none">
+  <rect width="800" height="800" fill="#E7ECEE"/>
+  <g transform="translate(170 150)">
+    <path d="M230 40 L430 140 L230 240 L30 140 Z" fill="#D5DDE1"/>
+    <path d="M30 140 L230 240 L230 470 L30 370 Z" fill="#8D939A"/>
+    <path d="M230 240 L430 140 L430 370 L230 470 Z" fill="#1A1C1F"/>
+    <path d="M230 250 L400 155 L400 175 L230 270 Z" fill="#5EC8E6"/>
+    <path d="M230 290 L400 195 L400 207 L230 302 Z" fill="#5EC8E6" opacity=".7"/>
+    <path d="M230 322 L360 248 L360 260 L230 334 Z" fill="#5EC8E6" opacity=".45"/>
+  </g>
+  <text x="400" y="700" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" fill="#5C656C" letter-spacing="6">MODELADO 3D</text>
+</svg>
