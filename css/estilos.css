@@ -469,7 +469,24 @@ section[id] { scroll-margin-top: 108px; }
 
 .order-strip { background: white; border-bottom: 1px solid var(--line); }
 .order-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 18px; padding: 28px 0; }
-.order-grid h2 { font-size: 22px; margin-bottom: 6px; }
+.order-title { display: flex; align-items: center; gap: 12px; margin-bottom: 6px; }
+.order-title h2 { margin: 0; }
+.order-icon {
+  width: 72px;
+  height: 72px;
+  object-fit: contain;
+  flex: none;
+  animation: order-float 3.4s ease-in-out infinite;
+}
+.order-grid article:nth-child(2) .order-icon { animation-delay: -0.6s; }
+.order-grid article:nth-child(3) .order-icon { animation-delay: -1.2s; }
+.order-grid article:nth-child(4) .order-icon { animation-delay: -1.8s; }
+.order-grid article:hover .order-icon { animation-play-state: paused; transform: translateY(-4px) scale(1.08); }
+@keyframes order-float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-8px); }
+}
+.order-grid h2 { font-size: 22px; }
 .order-grid p { color: var(--ink-soft); font-size: 14.5px; }
 .order-grid b { display: block; color: var(--celeste-deep); font-family: var(--display); font-size: 13px; letter-spacing: 0.14em; margin-bottom: 8px; }
 
